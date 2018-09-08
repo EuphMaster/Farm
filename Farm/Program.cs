@@ -10,13 +10,16 @@ namespace Farm
     {
         static void Main(string[] args)
         {
+
+            // Instantiate the Urban Farm animals
             HoneyBee Cheerios = new HoneyBee();
             Cat Felix = new Cat();
             Rabbit Peter = new Rabbit();
             Lizard Larry = new Lizard();
 
-            Console.WriteLine("Hello and Welcome to my Urban Farm \nCan you guess what animals I have? \nPress Enter to continue...");
-            
+            //The program begins
+
+            Console.WriteLine("Hello and Welcome to my Urban Farm \nCan you guess what animals I have? \nPress Enter to continue...");          
             Console.ReadLine();
 
             Cheerios.Talk();
